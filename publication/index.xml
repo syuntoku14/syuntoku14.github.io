@@ -2,45 +2,45 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Publications | Toshinori Kitamura</title>
-    <link>https://example.com/publication/</link>
-      <atom:link href="https://example.com/publication/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://syuntoku14.github.io/publication/</link>
+      <atom:link href="https://syuntoku14.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
     <description>Publications</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 01 Jan 2021 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://example.com/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <url>https://syuntoku14.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>Publications</title>
-      <link>https://example.com/publication/</link>
+      <link>https://syuntoku14.github.io/publication/</link>
     </image>
     
     <item>
       <title>Cautious Actor-Critic</title>
-      <link>https://example.com/publication/zhu-2021-cautious-ac/</link>
+      <link>https://syuntoku14.github.io/publication/zhu-2021-cautious-ac/</link>
       <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/zhu-2021-cautious-ac/</guid>
+      <guid>https://syuntoku14.github.io/publication/zhu-2021-cautious-ac/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Cautious Policy Programming: Exploiting KL Regularization in Monotonic Policy Improvement for Reinforcement Learning</title>
-      <link>https://example.com/publication/zhu-2021-cautious/</link>
+      <link>https://syuntoku14.github.io/publication/zhu-2021-cautious/</link>
       <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/zhu-2021-cautious/</guid>
+      <guid>https://syuntoku14.github.io/publication/zhu-2021-cautious/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Geometric Value Iteration: Dynamic Error-Aware KL Regularization for Reinforcement Learning</title>
-      <link>https://example.com/publication/kitamura-2021-geometric/</link>
+      <link>https://syuntoku14.github.io/publication/kitamura-2021-geometric/</link>
       <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/kitamura-2021-geometric/</guid>
+      <guid>https://syuntoku14.github.io/publication/kitamura-2021-geometric/</guid>
       <description></description>
     </item>
     
     <item>
       <title>ShinRL: A Library for Evaluating RL Algorithms from Theoretical and Practical Perspectives</title>
-      <link>https://example.com/publication/kitamura-2021-shinrl/</link>
+      <link>https://syuntoku14.github.io/publication/kitamura-2021-shinrl/</link>
       <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/kitamura-2021-shinrl/</guid>
+      <guid>https://syuntoku14.github.io/publication/kitamura-2021-shinrl/</guid>
       <description></description>
     </item>
     

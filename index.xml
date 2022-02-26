@@ -2,87 +2,103 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Toshinori Kitamura</title>
-    <link>https://example.com/</link>
-      <atom:link href="https://example.com/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://syuntoku14.github.io/</link>
+      <atom:link href="https://syuntoku14.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Toshinori Kitamura</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 25 Feb 2022 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://example.com/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <url>https://syuntoku14.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>Toshinori Kitamura</title>
-      <link>https://example.com/</link>
+      <link>https://syuntoku14.github.io/</link>
     </image>
     
     <item>
       <title>OMRON SINIC X (OSX) のインターン感想</title>
-      <link>https://example.com/post/omron/</link>
+      <link>https://syuntoku14.github.io/post/omron/</link>
       <pubDate>Fri, 25 Feb 2022 00:00:00 +0000</pubDate>
-      <guid>https://example.com/post/omron/</guid>
-      <description>&lt;p&gt;2021年6月から2022年2月まで, &lt;a href=&#34;https://www.omron.com/sinicx/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;オムロンサイニックエックス (OSX)&lt;/a&gt; で研究インターンをさせていただきました.
-これはインターンについてまとめたポストになります.&lt;/p&gt;
+      <guid>https://syuntoku14.github.io/post/omron/</guid>
+      <description>&lt;p&gt;2021年6月から2022年2月まで, &lt;a href=&#34;https://www.omron.com/sinicx/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;オムロンサイニックエックス (OSX)&lt;/a&gt; にて研究インターンをさせていただきました.
+これはOSXインターンについてまとめたポストになります.
+元インターンの&lt;a href=&#34;https://kei18.github.io/posts/20211129_osx-intern.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;奥村さんのポスト&lt;/a&gt;も参考になるのでぜひ.&lt;/p&gt;
+&lt;h2 id=&#34;自己紹介&#34;&gt;自己紹介&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;現在は奈良先端科学技術大学院大学の修士２年, 2022年の4月から東京大学で博士課程に進学予定の学生です.&lt;/li&gt;
+&lt;li&gt;学部の頃はロボットよりの研究をしていましたが, 修士課程では強化学習の理論やアルゴリズムがメインの研究をやっていました.&lt;/li&gt;
+&lt;li&gt;詳しくは&lt;a href=&#34;https://syuntoku14.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ホームページ&lt;/a&gt;を見てね.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;インターンまでの経緯&#34;&gt;インターンまでの経緯&lt;/h2&gt;
+&lt;p&gt;M2の前半で主著を1つ &amp;amp; 共著を2つ生やすことができたので, M2の後半はインターンやりたいなあ〜って思っていたところ, 研究室経由でメンターの&lt;a href=&#34;https://yonetaniryo.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;米谷さん&lt;/a&gt;からOSXインターンのお誘いをいただきました.
+待遇や時期的にもかなり好条件だったので即返事をし, フルタイムで半年以上の研究インターンに参加させていただきました.
+インターンへの応募は&lt;a href=&#34;https://medium.com/sinicx/fy2021-%E7%A0%94%E7%A9%B6%E3%82%A4%E3%83%B3%E3%82%BF%E3%83%BC%E3%83%B3%E3%81%AE%E5%8B%9F%E9%9B%86-fd6cc05e8098&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ここ&lt;/a&gt;に詳細があります.&lt;/p&gt;
+&lt;h2 id=&#34;何をやったのか&#34;&gt;何をやったのか&lt;/h2&gt;
+&lt;p&gt;強化学習の理論と応用の実験をサポートしたライブラリ &lt;a href=&#34;https://github.com/omron-sinicx/ShinRL&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ShinRL&lt;/a&gt; を開発しました.
+当初は米谷さんの提案でオフライン強化学習のテーマに取り組んでおり, 僕が個人的に開発していたShinRLを使ってデバッグ &amp;amp; アルゴリズムの実装を進めていました.
+もっとShinRLを高速化したい, 実装をキレイにしたい, などの理由で途中からShinRLの開発にシフトし始め, 最終的にはOSXとしてオフィシャルに公開するのを目標にテーマを変更しました (米谷さんは快く承諾していただきました. 圧倒的感謝).&lt;/p&gt;
+&lt;p&gt;当初はPyTorchで実装していたShinRLですが, 速度面や実装の単純さ, 勉強目的からJAXを利用して実装することに (米谷さんとJAXの勉強ができて楽しかったです).&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Cautious Actor-Critic</title>
-      <link>https://example.com/publication/zhu-2021-cautious-ac/</link>
+      <link>https://syuntoku14.github.io/publication/zhu-2021-cautious-ac/</link>
       <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/zhu-2021-cautious-ac/</guid>
+      <guid>https://syuntoku14.github.io/publication/zhu-2021-cautious-ac/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Cautious Policy Programming: Exploiting KL Regularization in Monotonic Policy Improvement for Reinforcement Learning</title>
-      <link>https://example.com/publication/zhu-2021-cautious/</link>
+      <link>https://syuntoku14.github.io/publication/zhu-2021-cautious/</link>
       <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/zhu-2021-cautious/</guid>
+      <guid>https://syuntoku14.github.io/publication/zhu-2021-cautious/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Geometric Value Iteration: Dynamic Error-Aware KL Regularization for Reinforcement Learning</title>
-      <link>https://example.com/publication/kitamura-2021-geometric/</link>
+      <link>https://syuntoku14.github.io/publication/kitamura-2021-geometric/</link>
       <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/kitamura-2021-geometric/</guid>
+      <guid>https://syuntoku14.github.io/publication/kitamura-2021-geometric/</guid>
       <description></description>
     </item>
     
     <item>
       <title>ShinRL: A Library for Evaluating RL Algorithms from Theoretical and Practical Perspectives</title>
-      <link>https://example.com/publication/kitamura-2021-shinrl/</link>
+      <link>https://syuntoku14.github.io/publication/kitamura-2021-shinrl/</link>
       <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/kitamura-2021-shinrl/</guid>
+      <guid>https://syuntoku14.github.io/publication/kitamura-2021-shinrl/</guid>
       <description></description>
     </item>
     
     <item>
       <title></title>
-      <link>https://example.com/admin/config.yml</link>
+      <link>https://syuntoku14.github.io/admin/config.yml</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.com/admin/config.yml</guid>
+      <guid>https://syuntoku14.github.io/admin/config.yml</guid>
       <description></description>
     </item>
     
     <item>
       <title>fusion2urdf</title>
-      <link>https://example.com/project/fusion2urdf/</link>
+      <link>https://syuntoku14.github.io/project/fusion2urdf/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.com/project/fusion2urdf/</guid>
+      <guid>https://syuntoku14.github.io/project/fusion2urdf/</guid>
       <description></description>
     </item>
     
     <item>
       <title>PyTorch-RL-IL (rlil)</title>
-      <link>https://example.com/project/rlil/</link>
+      <link>https://syuntoku14.github.io/project/rlil/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.com/project/rlil/</guid>
+      <guid>https://syuntoku14.github.io/project/rlil/</guid>
       <description></description>
     </item>
     
     <item>
       <title>ShinRL</title>
-      <link>https://example.com/project/shinrl/</link>
+      <link>https://syuntoku14.github.io/project/shinrl/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.com/project/shinrl/</guid>
+      <guid>https://syuntoku14.github.io/project/shinrl/</guid>
       <description></description>
     </item>
     
