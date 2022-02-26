@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Internship | Toshinori Kitamura</title>
+    <link>https://example.com/tag/internship/</link>
+      <atom:link href="https://example.com/tag/internship/index.xml" rel="self" type="application/rss+xml" />
+    <description>Internship</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 25 Feb 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://example.com/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <title>Internship</title>
+      <link>https://example.com/tag/internship/</link>
+    </image>
+    
+    <item>
+      <title>OMRON SINIC X (OSX) のインターン感想</title>
+      <link>https://example.com/post/omron/</link>
+      <pubDate>Fri, 25 Feb 2022 00:00:00 +0000</pubDate>
+      <guid>https://example.com/post/omron/</guid>
+      <description>&lt;p&gt;2021年6月から2022年2月まで, &lt;a href=&#34;https://www.omron.com/sinicx/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;オムロンサイニックエックス (OSX)&lt;/a&gt; で研究インターンをさせていただきました.
+これはインターンについてまとめたポストになります.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
