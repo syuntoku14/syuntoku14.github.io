@@ -59,7 +59,7 @@
 米谷さんもJAXは初めてだったので, お互いに情報を共有しあって実装のアイデアを提案しまくりました.
 インターンは完全リモートでしたが,&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;githubのissueで毎日進捗管理&lt;/li&gt;
+&lt;li&gt;GitLabのissueで毎日進捗管理&lt;/li&gt;
 &lt;li&gt;slackで必要に応じて質問を投げ合う&lt;/li&gt;
 &lt;li&gt;週一のミーティング&lt;/li&gt;
 &lt;/ul&gt;
@@ -115,7 +115,7 @@ OSXインターンでは週一回のミーティングで進捗やコードを�
 &lt;p&gt;もっとテスト駆動開発を徹底したほうが良かったかもしれません.
 開発は基本的に&lt;/p&gt;
 &lt;ol&gt;
-&lt;li&gt;githubのissueやslackで「〜を実装しようかなって考えてます」って報告&lt;/li&gt;
+&lt;li&gt;GitLabのissueやslackで「〜を実装しようかなって考えてます」って報告&lt;/li&gt;
 &lt;li&gt;米谷さんの意見を踏まえて実装&lt;/li&gt;
 &lt;li&gt;実装した後でissueやミーティングで説明&lt;/li&gt;
 &lt;li&gt;反応を見て修正&lt;/li&gt;
