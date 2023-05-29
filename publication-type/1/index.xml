@@ -5,12 +5,20 @@
     <link>https://syuntoku14.github.io/publication-type/1/</link>
       <atom:link href="https://syuntoku14.github.io/publication-type/1/index.xml" rel="self" type="application/rss+xml" />
     <description>1</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 01 Jan 2021 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 01 Jan 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://syuntoku14.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>1</title>
       <link>https://syuntoku14.github.io/publication-type/1/</link>
     </image>
+    
+    <item>
+      <title>Regularization and Variance-Weighted Regression Achieves Minimax Optimality in Linear MDPs: Theory and Practice</title>
+      <link>https://syuntoku14.github.io/publication/kitamura-2023-regularization/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://syuntoku14.github.io/publication/kitamura-2023-regularization/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Cautious Actor-Critic</title>

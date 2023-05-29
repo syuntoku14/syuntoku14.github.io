@@ -5,12 +5,20 @@
     <link>https://syuntoku14.github.io/</link>
       <atom:link href="https://syuntoku14.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Toshinori Kitamura</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 25 Feb 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 01 Jan 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://syuntoku14.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>Toshinori Kitamura</title>
       <link>https://syuntoku14.github.io/</link>
     </image>
+    
+    <item>
+      <title>Regularization and Variance-Weighted Regression Achieves Minimax Optimality in Linear MDPs: Theory and Practice</title>
+      <link>https://syuntoku14.github.io/publication/kitamura-2023-regularization/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://syuntoku14.github.io/publication/kitamura-2023-regularization/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>OMRON SINIC X (OSX) のインターン感想</title>
@@ -204,6 +212,14 @@ OSXインターンめっちゃ良いので, 気になる人はぜひ&lt;a href=&
       <link>https://syuntoku14.github.io/project/shinrl/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://syuntoku14.github.io/project/shinrl/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Variance Weighted MDVI</title>
+      <link>https://syuntoku14.github.io/project/dvw/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://syuntoku14.github.io/project/dvw/</guid>
       <description></description>
     </item>
     
