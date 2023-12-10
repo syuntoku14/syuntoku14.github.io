@@ -223,5 +223,182 @@ OSXインターンめっちゃ良いので, 気になる人はぜひ&lt;a href=&
       <description></description>
     </item>
     
+    <item>
+      <title>強化学習の勉強の内容とやり方の備忘録（Shumi-Noteについて）</title>
+      <link>https://syuntoku14.github.io/post/rl-theory-2023/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://syuntoku14.github.io/post/rl-theory-2023/</guid>
+      <description>&lt;p&gt;今年は主に強化学習における統計的学習理論について勉強してきました．
+これはその勉強内容とやり方の備忘録です．&lt;/p&gt;
+&lt;h2 id=&#34;勉強のやり方shumi-noteについて&#34;&gt;勉強のやり方（Shumi-Noteについて）&lt;/h2&gt;
+&lt;p&gt;１月からずっと&lt;a href=&#34;https://github.com/syuntoku14/Shumi-Note&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Shumi-Note&lt;/a&gt;を使って勉強内容を記録してきました．
+１年で約２００記事くらい書いたので，２日に１記事以上のペースで何か書いていることになります．
+Shumi-Noteのテンプレートは&lt;a href=&#34;https://github.com/syuntoku14/Shumi-Note-Template&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;こちら&lt;/a&gt;．
+Shumi-Note自体は下の画像みたいな感じ．&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Shumi-note&#34; srcset=&#34;
+               /post/rl-theory-2023/Shumi-note_hua231f9d8e0eae3b4f2c6f390936a243c_165752_8200159b53d6a166a14bae3e95c31fb6.webp 400w,
+               /post/rl-theory-2023/Shumi-note_hua231f9d8e0eae3b4f2c6f390936a243c_165752_4e1d74ff0b281402cdbb473fa8bdbe74.webp 760w,
+               /post/rl-theory-2023/Shumi-note_hua231f9d8e0eae3b4f2c6f390936a243c_165752_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://syuntoku14.github.io/post/rl-theory-2023/Shumi-note_hua231f9d8e0eae3b4f2c6f390936a243c_165752_8200159b53d6a166a14bae3e95c31fb6.webp&#34;
+               width=&#34;618&#34;
+               height=&#34;760&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;今年から始めた習慣ですが，やってみてかなり良かったです．
+Twitterで&lt;a href=&#34;https://x.com/gabrielpeyre?s=20&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Gabriel Peyré先生&lt;/a&gt;が一日一つCSに関する話とその実装をツイートをしているのを見たのがきっかけです．&lt;/p&gt;
+&lt;p&gt;基本方針として，「インプットした内容を，なるべく人に説明するような書き方で，Pythonのコードとともにまとめる」を意識しました．
+また，次のことにも気をつけていました．&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;書いた内容は日付とともにREADMEにまとめる．
+&lt;ul&gt;
+&lt;li&gt;どれくらいの季節に何を集中的に勉強していたか振り返りやすくなり，進捗状況の把握に役立ちました．&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;一瞬で完了し，再現性の高い実装を心がける．
+&lt;ul&gt;
+&lt;li&gt;Shumi-Noteでは強化学習アルゴリズムをたくさん実装しましたが，ほとんどはnumpy (or jax.numpy)で完結しています．深層学習系は実装コストが高いため，今回は見送りました（理論保証がついてる深層学習系の話はそのうちやりたいですね）．&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;ストレスにならないように自分のペースで書く．
+&lt;ul&gt;
+&lt;li&gt;丁寧に書いた記事も，かなり適当に書いた記事もあります．記事は下の画像みたいな感じ．&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Shumi-UCB&#34; srcset=&#34;
+               /post/rl-theory-2023/Shumi-UCB_huf242001c008f9cd3f23b42734e41af67_112191_6c7a65ce033410adb4d961c02b9edd70.webp 400w,
+               /post/rl-theory-2023/Shumi-UCB_huf242001c008f9cd3f23b42734e41af67_112191_84d4ddce144c1c11d477a01241ac67bd.webp 760w,
+               /post/rl-theory-2023/Shumi-UCB_huf242001c008f9cd3f23b42734e41af67_112191_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://syuntoku14.github.io/post/rl-theory-2023/Shumi-UCB_huf242001c008f9cd3f23b42734e41af67_112191_6c7a65ce033410adb4d961c02b9edd70.webp&#34;
+               width=&#34;699&#34;
+               height=&#34;712&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h2 id=&#34;勉強の内容&#34;&gt;勉強の内容&lt;/h2&gt;
+&lt;p&gt;強化学習の理論をやるために必要な知識を勉強していました．
+ここではその中でも体系的な知識をつけるために役に立った資料をまとめておきます．細かい知識の話は&lt;a href=&#34;https://qiita.com/advent-calendar/2023/rl-theory&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;アドベントカレンダー&lt;/a&gt;にでも書こうと思います．
+基本的に勉強した内容はShumi-Noteにまとめ，理解を深めていました．&lt;/p&gt;
+&lt;h3 id=&#34;測度論的確率論去年の中旬今年の初旬&#34;&gt;測度論的確率論（去年の中旬〜今年の初旬）&lt;/h3&gt;
+&lt;p&gt;バンディットや強化学習の理論を理解するために確率論はとても重要です．恥ずかしながら博士課程１年目の半ばごろまで測度論的確率論に触れてこなかったので苦労しました．
+用語と定義を覚えないと話にならないので，下の３つの本に出てくる用語や定義，定理の証明を読み込んでいました．（&lt;a href=&#34;https://www.goodnotes.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Goodnote&lt;/a&gt;と&lt;a href=&#34;https://apps.ankiweb.net/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Anki&lt;/a&gt;を使っていました．）&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://amzn.asia/d/1KMEEDC&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;測度・確率・ルベーグ積分 応用への最短コース (KS理工学専門書)&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;実際この本は応用への最短コースでした．よく使う話が短く，しかし丁寧にまとまっており，非常に助かりました．&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://amzn.asia/d/1mgAy7o&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;舟木確率論&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;わからないところはこれを適宜参考にしてました．&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://ibis.t.u-tokyo.ac.jp/suzuki/lecture/2022/index.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;東大の鈴木先生の講義&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;東大の鈴木先生の確率数理要論を受講してました．（成績は「可」でした．トホホ…）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://tor-lattimore.com/downloads/book/book.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Bandit Algorithms&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;とても良い本です．Part1にバンディットに必要な確率論の話が体系的にまとまっているので，この本をひたすら読む＆章末問題を解きまくっていました．&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;主なShumi-Noteの記録&lt;/strong&gt;：&lt;a href=&#34;https://github.com/syuntoku14/Shumi-Note/tree/main#%E7%A2%BA%E7%8E%87%E8%AB%96%E5%85%A5%E9%96%80&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;このへん&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;バンディットずっと&#34;&gt;バンディット（ずっと）&lt;/h3&gt;
+&lt;p&gt;バンディットを理解しないと強化学習に置ける探索の話ができません．
+以下の資料で体系的に勉強しました．&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://tor-lattimore.com/downloads/book/book.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Bandit Algorithms&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;とにかくこれを読み込んでいました．
+また，友人＆メンターと章末問題を解きまくる会を毎週開催していました．&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://amzn.asia/d/fBxP4Vb&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;バンディット問題の理論とアルゴリズム&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;証明に詰まったときに参考になります．こちらのほうがBandit Algorithmsよりもわかりやすい説明もいくつかありました．&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://rltheorybook.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;RL Theory and Algorithms&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;６章がバンディットの話です．証明が非常にわかりやすいので参考になります．&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;主なShumi-Noteの記録&lt;/strong&gt;：&lt;a href=&#34;https://github.com/syuntoku14/Shumi-Note/tree/main#%E9%80%90%E6%AC%A1%E6%84%8F%E6%80%9D%E6%B1%BA%E5%AE%9A%E5%95%8F%E9%A1%8C&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;このへん&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;強化学習ずっと&#34;&gt;強化学習（ずっと）&lt;/h3&gt;
+&lt;p&gt;修士までは&lt;a href=&#34;https://amzn.asia/d/91JDd35&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;強化学習 (機械学習プロフェッショナルシリーズ)&lt;/a&gt;をひたすら読み込んでいました．
+博士からは強化学習についての統計的学習理論を，以下の資料をベースに勉強していました．&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://rltheory.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Csaba先生のRLTheory講義&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;これの翻訳会に参加していました．非常によくまとまった資料です．ICMLに出した論文でも，ここで勉強した内容がとても参考になりました．&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://rltheorybook.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;RL Theory and Algorithms&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;メインで勉強していた本です．現在進行系でこれの勉強会を主催しています．担当者が一つの章を読み込んで，それを画面シェアで聴講者に説明する形式で勉強会していました．この資料の証明はかなり読みやすく，論文執筆で重宝しています．&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Convex Optimization&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;Boyd本です．過去に何度か読んでいましたが，改めて読み直していました．強化学習でもめちゃめちゃ使います．この話は別の記事で書きます．&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;主なShumi-Noteの記録&lt;/strong&gt;：&lt;a href=&#34;https://github.com/syuntoku14/Shumi-Note/tree/main#%E9%80%90%E6%AC%A1%E6%84%8F%E6%80%9D%E6%B1%BA%E5%AE%9A%E5%95%8F%E9%A1%8C&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;このへん&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;来年頑張りたい話&#34;&gt;来年頑張りたい話&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Bertsekas先生のDynamic Programming and Optimal Control：買ったけど積んでる．読まねば&amp;hellip;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.hse.ru/data/2016/11/24/1113029206/Concentration%20inequalities.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Concentration inequalities&lt;/a&gt;：読まなきゃなあ〜って気持ちのまま一年が過ぎました．&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://amzn.asia/d/4NckyPM&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;統計的学習理論 (機械学習プロフェッショナルシリーズ)&lt;/a&gt;：ちょこちょこ読んでますが，未だ熟読せずに一年が過ぎました．&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://amzn.asia/d/60AVg26&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;機械学習のための連続最適化&lt;/a&gt;：同上．論文で使うところだけ読んでましたが，未だ熟読せずに一年が過ぎました．&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;総括&#34;&gt;総括&lt;/h2&gt;
+&lt;p&gt;これから強化学習の統計的学習理論を始める方は，とりあえず&lt;a href=&#34;https://tor-lattimore.com/downloads/book/book.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Bandit Algorithms&lt;/a&gt;と&lt;a href=&#34;https://rltheorybook.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;RL Theory and Algorithms&lt;/a&gt;が読めるように勉強し，それぞれの章末についているBibliographyの論文を参照していけば必要な知識はつきそうです．
+僕自身まだまだ勉強中なので，一緒に勉強したい方がいればTwitterなどでお気軽に声かけてください．&lt;/p&gt;
+&lt;p&gt;今年はのんびり勉強できた一年で，非常に楽しかったです．特にShumi-Noteの実装をしているときはかなり楽しいですね．お気に入りの記事や実装については別のブログにまとめようと思います．
+来年も頑張るぞ．&lt;/p&gt;
+</description>
+    </item>
+    
   </channel>
 </rss>

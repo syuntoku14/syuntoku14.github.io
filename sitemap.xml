@@ -76,6 +76,8 @@
   <url>
     <loc>https://syuntoku14.github.io/admin/</loc></url>
   <url>
+    <loc>https://syuntoku14.github.io/category/annual-review/</loc></url>
+  <url>
     <loc>https://syuntoku14.github.io/project/fusion2urdf/</loc></url>
   <url>
     <loc>https://syuntoku14.github.io/tag/other/</loc></url>
@@ -86,6 +88,10 @@
   <url>
     <loc>https://syuntoku14.github.io/tag/reinforcement-learning/</loc></url>
   <url>
+    <loc>https://syuntoku14.github.io/tag/rl/</loc></url>
+  <url>
     <loc>https://syuntoku14.github.io/project/shinrl/</loc></url>
   <url>
-    <loc>https://syuntoku14.github.io/project/dvw/</loc></url></urlset>
+    <loc>https://syuntoku14.github.io/project/dvw/</loc></url>
+  <url>
+    <loc>https://syuntoku14.github.io/post/rl-theory-2023/</loc></url></urlset>
