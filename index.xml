@@ -21,6 +21,22 @@
     </item>
     
     <item>
+      <title>Deep Learning Lecture (The University of Tokyo)</title>
+      <link>https://syuntoku14.github.io/teaching/deeplearning/</link>
+      <pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>https://syuntoku14.github.io/teaching/deeplearning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Deep RL Spring Seminar (The University of Tokyo)</title>
+      <link>https://syuntoku14.github.io/teaching/deep-rl/</link>
+      <pubDate>Wed, 01 Feb 2023 00:00:00 +0000</pubDate>
+      <guid>https://syuntoku14.github.io/teaching/deep-rl/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>(OS 招待講演) 逐次意思決定における諸問題設定と問題に関する事前知識が性能保証に及ぼす影響について</title>
       <link>https://syuntoku14.github.io/publication/%E5%B0%8F%E6%B4%A5%E9%87%8E%E5%B0%86-2023-%E6%8B%9B%E5%BE%85%E8%AC%9B%E6%BC%94/</link>
       <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
@@ -208,6 +224,14 @@ OSXインターンめっちゃ良いので, 気になる人はぜひ&lt;a href=&
     </item>
     
     <item>
+      <title>A Policy Gradient Primal-Dual Algorithm for Constrained MDPs with Uniform PAC Guarantees</title>
+      <link>https://syuntoku14.github.io/project/uopt-rpgpd/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://syuntoku14.github.io/project/uopt-rpgpd/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>fusion2urdf</title>
       <link>https://syuntoku14.github.io/project/fusion2urdf/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -240,7 +264,7 @@ OSXインターンめっちゃ良いので, 気になる人はぜひ&lt;a href=&
     </item>
     
     <item>
-      <title>強化学習の勉強の内容とやり方の備忘録（Shumi-Noteについて）</title>
+      <title>強化学習の勉強の備忘録</title>
       <link>https://syuntoku14.github.io/post/rl-theory-2023/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://syuntoku14.github.io/post/rl-theory-2023/</guid>
