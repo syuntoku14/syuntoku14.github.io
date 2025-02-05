@@ -5,7 +5,7 @@
     <link>https://syuntoku14.github.io/publication-type/1/</link>
       <atom:link href="https://syuntoku14.github.io/publication-type/1/index.xml" rel="self" type="application/rss+xml" />
     <description>1</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 01 Jan 2024 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 01 Apr 2025 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://syuntoku14.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>1</title>
@@ -13,18 +13,18 @@
     </image>
     
     <item>
-      <title>A Policy Gradient Primal-Dual Algorithm for Constrained MDPs with Uniform PAC Guarantees</title>
-      <link>https://syuntoku14.github.io/publication/kitamura-2024-policy/</link>
-      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>https://syuntoku14.github.io/publication/kitamura-2024-policy/</guid>
+      <title>Near-Optimal Policy Identification in Robust Constrained Markov Decision Processes via Epigraph Form</title>
+      <link>https://syuntoku14.github.io/publication/kitamura-2024-near/</link>
+      <pubDate>Tue, 01 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>https://syuntoku14.github.io/publication/kitamura-2024-near/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Near-Optimal Policy Identification in Robust Constrained Markov Decision Processes via Epigraph Form</title>
-      <link>https://syuntoku14.github.io/publication/kitamura-2024-near/</link>
+      <title>A Policy Gradient Primal-Dual Algorithm for Constrained MDPs with Uniform PAC Guarantees</title>
+      <link>https://syuntoku14.github.io/publication/kitamura-2024-policy/</link>
       <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>https://syuntoku14.github.io/publication/kitamura-2024-near/</guid>
+      <guid>https://syuntoku14.github.io/publication/kitamura-2024-policy/</guid>
       <description></description>
     </item>
     
