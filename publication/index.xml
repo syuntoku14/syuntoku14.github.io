@@ -21,6 +21,15 @@
     </item>
     
     <item>
+      <title>Provably Efficient RL under Episode-Wise Safety in Linear CMDPs</title>
+      <link>https://syuntoku14.github.io/publication/kitamura-2025-provably/</link>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://syuntoku14.github.io/publication/kitamura-2025-provably/</guid>
+      <description>&lt;p&gt;Add the &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; for the publication here using Markdown formatting.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>A Policy Gradient Primal-Dual Algorithm for Constrained MDPs with Uniform PAC Guarantees</title>
       <link>https://syuntoku14.github.io/publication/kitamura-2024-policy/</link>
       <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
