@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>3 | Toshinori Kitamura</title>
+    <link>https://syuntoku14.github.io/publication-type/3/</link>
+      <atom:link href="https://syuntoku14.github.io/publication-type/3/index.xml" rel="self" type="application/rss+xml" />
+    <description>3</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 01 Jan 2023 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://syuntoku14.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <title>3</title>
+      <link>https://syuntoku14.github.io/publication-type/3/</link>
+    </image>
+    
+    <item>
+      <title>(OS 招待講演) 逐次意思決定における諸問題設定と問題に関する事前知識が性能保証に及ぼす影響について</title>
+      <link>https://syuntoku14.github.io/publication/%E5%B0%8F%E6%B4%A5%E9%87%8E%E5%B0%86-2023-%E6%8B%9B%E5%BE%85%E8%AC%9B%E6%BC%94/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://syuntoku14.github.io/publication/%E5%B0%8F%E6%B4%A5%E9%87%8E%E5%B0%86-2023-%E6%8B%9B%E5%BE%85%E8%AC%9B%E6%BC%94/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>KL-Entropy-Regularized RL with a Generative Model is Minimax Optimal</title>
+      <link>https://syuntoku14.github.io/publication/kozuno-2022-kl/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://syuntoku14.github.io/publication/kozuno-2022-kl/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cautious Policy Programming: Exploiting KL Regularization in Monotonic Policy Improvement for Reinforcement Learning</title>
+      <link>https://syuntoku14.github.io/publication/zhu-2021-cautious/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://syuntoku14.github.io/publication/zhu-2021-cautious/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ShinRL: A Library for Evaluating RL Algorithms from Theoretical and Practical Perspectives</title>
+      <link>https://syuntoku14.github.io/publication/kitamura-2021-shinrl/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://syuntoku14.github.io/publication/kitamura-2021-shinrl/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
